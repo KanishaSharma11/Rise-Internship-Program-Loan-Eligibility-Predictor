@@ -30,7 +30,7 @@ A Flask-based web application that predicts whether a person is **eligible for a
 ## 🧠 Model Evaluation
 
 ### 🔹 Random Forest Classifier
-- **Accuracy**: `77.23% – 78.86%`
+- **Accuracy**: `77.23%`
 - **Model chosen for deployment** due to robustness and consistency.
 
 ---
