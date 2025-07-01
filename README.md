@@ -62,3 +62,8 @@ A Flask-based web application that predicts whether a person is **eligible for a
 │ └── style.css # Custom UI styles
 
 └── README.md
+
+
+## 💻 Demo
+![App Screenshot](image1.png)
+![App Screenshot](image2.png)
