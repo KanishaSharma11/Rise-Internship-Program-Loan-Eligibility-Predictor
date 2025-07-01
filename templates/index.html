@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Eligibility Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Eligibility Predictor</h1>
+        <form action="/predict" method="POST">
+            <label>Gender:</label>
+            <select name="Gender"><option>Male</option><option>Female</option></select>
+
+            <label>Married:</label>
+            <select name="Married"><option>Yes</option><option>No</option></select>
+
+            <label>Dependents:</label>
+            <select name="Dependents"><option>0</option><option>1</option><option>2</option><option>3+</option></select>
+
+            <label>Education:</label>
+            <select name="Education"><option>Graduate</option><option>Not Graduate</option></select>
+
+            <label>Self Employed:</label>
+            <select name="Self_Employed"><option>Yes</option><option>No</option></select>
+
+            <label>Applicant Income:</label>
+            <input type="number" name="ApplicantIncome" required>
+
+            <label>Coapplicant Income:</label>
+            <input type="number" name="CoapplicantIncome" required>
+
+            <label>Loan Amount:</label>
+            <input type="number" name="LoanAmount" required>
+
+            <label>Loan Term:</label>
+            <input type="number" name="Loan_Amount_Term" required>
+
+            <label>Credit History (1 or 0):</label>
+            <select name="Credit_History"><option>1</option><option>0</option></select>
+
+            <label>Property Area:</label>
+            <select name="Property_Area"><option>Urban</option><option>Semiurban</option><option>Rural</option></select>
+
+            <button type="submit">Predict Eligibility</button>
+        </form>
+    </div>
+</body>
+</html>
