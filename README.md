@@ -44,12 +44,21 @@ A Flask-based web application that predicts whether a person is **eligible for a
 ## 🗂️ Project Structure
 
 ├── app.py # Flask backend
+
 ├── model.pkl # Trained Random Forest model
+
 ├── scaler.pkl # StandardScaler object
+
 ├── feature_names.pkl # Feature columns used for prediction
+
 ├── templates/
+
 │ ├── index.html # Input form UI
+
 │ └── result.html # Result display page
+
 ├── static/
+
 │ └── style.css # Custom UI styles
+
 └── README.md
