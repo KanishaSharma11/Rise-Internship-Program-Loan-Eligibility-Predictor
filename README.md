@@ -4,6 +4,10 @@ A Flask-based web application that predicts whether a person is **eligible for a
 
 ---
 
+Uploading freecompress-Loan Eligibility Predictor Video.mp4…
+
+
+
 ## 📌 Features
 
 - 🔍 Predict loan eligibility using a trained machine learning model
