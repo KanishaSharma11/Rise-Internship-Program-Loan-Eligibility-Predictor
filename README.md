@@ -4,8 +4,6 @@ A Flask-based web application that predicts whether a person is **eligible for a
 
 ---
 
-[Watch the video](freecompress-Loan Eligibility Predictor Video)
-
 
 ## 📌 Features
 
